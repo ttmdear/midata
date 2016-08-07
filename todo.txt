@@ -1,0 +1,2 @@
+1. Dodanie nowych operacji.
+Dodanie wszystkich operacji DDL, DML.

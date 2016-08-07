@@ -1,0 +1,33 @@
+{
+    "name": "ttmdear/midata",
+    "license": "MIT",
+    "description": "The library provides an object-oriented interface to read information about the objects of database and, tools to building DML and DDL.",
+    "keywords": ["database", "sql", "DML", "DDL", "mysql", "builder"],
+    "type" : "library",
+    "authors": [
+        {
+            "name": "ttmdear",
+            "email": "ttmdear@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Midata\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "files" : [
+            "tests/Base.php",
+            "tests/Mysql.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
